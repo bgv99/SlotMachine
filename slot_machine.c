@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <time.h>
 
 #if defined (__linux__) || defined (__gnu_linux__)
@@ -76,8 +75,6 @@ int main()
                     score += 3;
                 }
             }
-
-            sleep(1);
         }
 
         RESET_PROGRESS_START:
